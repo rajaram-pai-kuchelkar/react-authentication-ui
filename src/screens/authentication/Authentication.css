@@ -1,0 +1,97 @@
+.login {
+    display : flex;
+    /* justify-content: center;
+    top:20%; */
+}
+
+.outerbox{
+    
+    border : 0.5px solid rgb(102, 99, 99);
+    position:relative;
+    width:25%;
+	margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    
+}
+
+.outerbox-titleblock{
+    background-color: purple;
+    color: white;
+    font-size: 2rem;
+    height: 4rem;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    
+    
+}
+.outerbox-titleblock-heading{
+    position: relative;
+    top: 1rem;
+    left : 1rem;    
+}
+
+.outerbox-contents{
+      
+    justify-self:center;
+    background-color: white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    
+
+     
+}
+
+.login-container{
+    width: 70%;
+    margin:auto;
+}
+
+.tabs {
+    color: blue;
+    background-color: white;
+    
+}
+
+.tabpanel{
+    margin-bottom: 1.5rem;    
+}
+
+.formcontrol{
+  width:100%;
+}
+.formcontrol-field{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    position: relative;
+    left: 50% ;
+    transform : translateX(-50%);
+    top:1rem;
+    
+}
+.message{
+    position:relative;
+    text-align: center;
+}
+
+
+#helper-username, #helper-password, #helper-fname ,#helper-lname{
+
+    color:white;
+    background-color: red;
+    margin-right: 50%;
+    text-align: center;
+}
+
+#helper-register-email{
+    color:red;
+}
+
+

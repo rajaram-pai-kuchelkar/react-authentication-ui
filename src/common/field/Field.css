@@ -1,0 +1,38 @@
+#helper-tel {
+    background-color: rgb(71, 66, 66);
+    color: white;
+    padding : 10px;
+    border-radius: 5px;
+    position: relative;
+    width :10rem;
+    text-align: center;
+    
+}
+
+.card-main{
+    width: 25%;
+    margin: auto;
+    height:50%;
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+
+.card-main-content{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    row-gap: 2rem;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#submit-button{
+    position: relative;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+}
